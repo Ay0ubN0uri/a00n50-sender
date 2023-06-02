@@ -1,0 +1,16 @@
+smtp_acc:
+  - host: smtp.gmail.com
+    port: 587
+    username: your_email@gmail.com
+    password: your_password
+
+a00n_setup:
+  sleeptime: 1
+  attachfile: true
+  userremoveline: 0
+  mail_list: assets/maillist/hot.txt
+  fromname: a00n
+  frommail: a00n@a00n.net
+  subject: "A00N50"
+  msgfile: assets/letter/letter.html
+  filepdf: assets/attachment/a00n.pdf
